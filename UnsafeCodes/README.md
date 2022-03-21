@@ -1,6 +1,7 @@
 # Unsafe Codes
 ## DOM XSS
-- a
+- `eval\(`
 
 ## DOM Clobbering
-- b
+- `(location|\.href|\.innerHTML|\.outerHTML|document.URL|\.srcdoc)(|\s)=(|\s)window\..*`
+- `(eval\(|html\(|constructor\(|setInterval\(|setTimeout\(|document.write\(|document.execCommand\()(|\s)window\..*`
