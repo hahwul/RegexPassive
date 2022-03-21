@@ -5,3 +5,6 @@
 ## DOM Clobbering
 - `(location|\.href|\.innerHTML|\.outerHTML|document.URL|\.srcdoc)(|\s)=(|\s)window\..*`
 - `(eval\(|html\(|constructor\(|setInterval\(|setTimeout\(|document.write\(|document.execCommand\()(|\s)window\..*`
+
+## Relative Path Overwrite
+- `(href\=\"((?!\/|http|www)).*\.css\")`
