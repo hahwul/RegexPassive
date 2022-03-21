@@ -5,6 +5,7 @@ Collection of regexp pattern for security passive scanning
 | Name          | Description                                                           |
 |---------------|-----------------------------------------------------------------------|
 | ErrorPatterns | A regular expression that can detect errors such as applications.     |
+| Informational | A regular expression that can detect common information.              |
 | Secrets       | A regular expression that can detect important information.           |
 | UnsafeCodes   | A regular expression that can detect unsafe codes and vulnerabilities |
 
