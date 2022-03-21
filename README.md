@@ -2,12 +2,15 @@
 Collection of regexp pattern for security passive scanning
 
 ## Categories
-| Name          | Description                                                           |
-|---------------|-----------------------------------------------------------------------|
-| ErrorPatterns | A regular expression that can detect errors such as applications.     |
-| Informational | A regular expression that can detect common information.              |
-| Secrets       | A regular expression that can detect important information.           |
-| UnsafeCodes   | A regular expression that can detect unsafe codes and vulnerabilities |
+| Name           | Description                                                           |
+|----------------|-----------------------------------------------------------------------|
+| ErrorPatterns  | A regular expression that can detect errors such as applications.     |
+| Informational  | A regular expression that can detect common information.              |
+| Local Specialty| A special regular expression for each country/region.           |
+| Secrets        | A regular expression that can detect important information.           |
+| UnsafeCodes    | A regular expression that can detect unsafe codes and vulnerabilities |
+
+# Local Specialty
 
 ## Contributing
 Made RegexPassive with ❤️
