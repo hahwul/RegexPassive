@@ -17,3 +17,12 @@ Made RegexPassive with ❤️
 if you want contribute this project, please see [CONTRIBUTING.md](https://github.com/hahwul/RegexPassive/blob/main/CONTRIBUTING.md) and Pull-Request with cool your contents.
 
 [![](/CONTRIBUTORS.svg)](https://github.com/hahwul/RegexPassive/graphs/contributors)
+
+## Useful resources
+### Build and Test
+- https://regex101.com
+- https://regexr.com
+
+### Auto generating
+- https://github.com/pemistahl/grex
+- https://github.com/devongovett/regexgen
