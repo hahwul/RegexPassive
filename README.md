@@ -13,8 +13,6 @@
 | Secrets        | A regular expression that can detect important information.           |
 | UnsafeCodes    | A regular expression that can detect unsafe codes and vulnerabilities |
 
-# Local Specialty
-
 ## Contributing
 Made RegexPassive with ❤️
 if you want contribute this project, please see [CONTRIBUTING.md](https://github.com/hahwul/RegexPassive/blob/main/CONTRIBUTING.md) and Pull-Request with cool your contents.
