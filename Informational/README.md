@@ -7,8 +7,9 @@
 - `([a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+[a-zA-Z0-9-]*\.[a-zA-Z0-9-.]*[a-zA-Z0-9]{2,})`
 
 ## Encoding
-- Base64: `([A-Za-z0-9+\/]{15,}=+)`
-- Base64(Encoded JSON): `ey[A-Za-z0-9+\/]{20,}(={0,2})`
+- Base64
+  - Basic(loose): `([A-Za-z0-9+\/]{15,}=+)`
+  - Encoded JSON: `ey[A-Za-z0-9+\/]{20,}(={0,2})`
 
 ## Hashes
 - SHA512: `(\$6\$\w{8}\S{86})`
