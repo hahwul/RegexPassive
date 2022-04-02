@@ -8,3 +8,9 @@
 
 ## Relative Path Overwrite
 - `(href\=\"((?!\/|http|www)).*\.css\")`
+
+## ReDOS
+- `^([a-zA-Z0-9])(([\-.]|[_]+)?([a-zA-Z0-9]+))*(@){1}[a-z0-9]+[.]{1}(([a-z]{2,3})|([a-z]{2,3}[.]{1}[a-z]{2,3}))$`
+  - Attack: aaaaaaaaaaaaaaaaaaaaaaaa!
+- `^(([a-z])+.)+[A-Z]([a-z])+$`
+  - Attack: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!
