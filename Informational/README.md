@@ -8,6 +8,7 @@
 
 ## Encoding
 - Base64: `([A-Za-z0-9+\/]{15,}=+)`
+- Base64(Encoded JSON): `ey[A-Za-z0-9+\/]{20,}(={0,2})`
 
 ## Hashes
 - SHA512: `(\$6\$\w{8}\S{86})`
