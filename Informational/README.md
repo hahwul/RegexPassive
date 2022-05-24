@@ -9,6 +9,9 @@
 ## Email
 - `([a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+[a-zA-Z0-9-]*\.[a-zA-Z0-9-.]*[a-zA-Z0-9]{2,})`
 
+## Formats
+- JSON: `[^,:{}\[\]0-9.\-+Eaeflnr-u \n\r\t]`
+
 ## Encoding
 - Base64
   - Basic(loose): `([A-Za-z0-9+\/]{15,}=+)`
