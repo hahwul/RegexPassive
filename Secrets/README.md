@@ -4,6 +4,13 @@
 - RSA Key: `-----BEGIN RSA PRIVATE KEY-----|-----END RSA PRIVATE KEY-----`
 - Private Key: `-----BEGIN PRIVATE KEY-----|-----END PRIVATE KEY-----`
 
+## Sessions
+- Typical Session: `session=(.*?).*`
+- Tomcat: `JSESSIONID=(.*?).*`
+- Rails: `([a-zA-Z0-9_]*)_session=(.*?).*`
+- PHP: `PHPSESSID=(.*?).*`
+- Django: `sessionid=(.*?).*`
+
 ## API Keys and Tokens
 - AWS Access Key: `AKIA[0-9A-Z]{16}`
 - AWS Appsync GraphQL: `da2-[a-z0-9]{26}`
