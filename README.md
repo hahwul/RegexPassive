@@ -7,11 +7,11 @@
 ## Categories
 | Name           | Description                                                           |
 |----------------|-----------------------------------------------------------------------|
-| ErrorPatterns  | A regular expression that can detect errors such as applications.     |
-| Informational  | A regular expression that can detect common information.              |
-| Local Specialty| A special regular expression for each country/region.           |
-| Secrets        | A regular expression that can detect important information.           |
-| UnsafeCodes    | A regular expression that can detect unsafe codes and vulnerabilities |
+| ⚠️ ErrorPatterns  | A regular expression that can detect errors such as applications.     |
+| ℹ️ Informational  | A regular expression that can detect common information.              |
+| ⛳️ Local Specialty| A special regular expression for each country/region.           |
+| 🔐 Secrets        | A regular expression that can detect important information.           |
+| 💣 UnsafeCodes    | A regular expression that can detect unsafe codes and vulnerabilities |
 
 ## Contributing
 Made RegexPassive with ❤️
