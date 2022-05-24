@@ -1,4 +1,4 @@
-# Error Patterns
+# ⚠️ Error Patterns
 
 ## Databases
 ### MySQL
