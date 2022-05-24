@@ -1,4 +1,4 @@
-# Secrets
+# 🔐 Secrets
 
 ## Certificate
 - RSA Key: `-----BEGIN RSA PRIVATE KEY-----|-----END RSA PRIVATE KEY-----`
